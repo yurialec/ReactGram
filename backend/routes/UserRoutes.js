@@ -5,7 +5,7 @@ const router = express.Router()
 const { register } = require("../controllers/UserController")
 
 //Middlewares
-const validate = require("../middlewares/handleValidaton");
+const validate = require("../middlewares/handleValidation");
 const { userCreateValidation } = require("../middlewares/userValidations");
 
 //Routes
